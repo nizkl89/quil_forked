@@ -86,12 +86,15 @@ Image getImageWidgetByImageSource(
     loadingBuilder: (context, child, loadingProgress) {
       if (loadingProgress == null) return child;
       return Center(
-        child: CircularProgressIndicator(
-            value: loadingProgress.expectedTotalBytes != null
-                ? loadingProgress.cumulativeBytesLoaded /
-                    loadingProgress.expectedTotalBytes!
-                : null),
-      );
+          child: SizedBox(
+              height: 150,
+              child: Center(
+                child: CircularProgressIndicator(
+                    value: loadingProgress.expectedTotalBytes != null
+                        ? loadingProgress.cumulativeBytesLoaded /
+                            loadingProgress.expectedTotalBytes!
+                        : null),
+              )));
     },
   );
 }
