@@ -145,14 +145,14 @@ class ImageTapWrapper extends StatelessWidget {
                 imageProviderBuilder: config.imageProviderBuilder,
               ),
               errorBuilder: config.imageErrorWidgetBuilder,
-              loadingBuilder: (context, event) {
-                return Container(
-                  color: Colors.black,
-                  child: const Center(
-                    child: CircularProgressIndicator(),
-                  ),
-                );
-              },
+              // loadingBuilder: (context, event) {
+              //   return Container(
+              //     color: Colors.black,
+              //     child: const Center(
+              //       child: CircularProgressIndicator(),
+              //     ),
+              //   );
+              // },
             ),
             Positioned(
               right: 10,
