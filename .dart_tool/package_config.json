@@ -50,6 +50,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "crypto",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/crypto-3.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "csslib",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/csslib-1.0.2",
       "packageUri": "lib/",
@@ -62,8 +68,26 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "device_info_plus",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/device_info_plus-10.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "device_info_plus_platform_interface",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "diff_match_patch",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "equatable",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/equatable-2.0.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -78,6 +102,12 @@
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/ffi-2.1.3",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/file-7.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "file_selector_linux",
@@ -102,6 +132,12 @@
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+3",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "fixnum",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/fixnum-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
     },
     {
       "name": "flutter",
@@ -165,9 +201,9 @@
     },
     {
       "name": "flutter_quill",
-      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/flutter_quill-11.0.0-dev.17",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/flutter_quill-10.8.5",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     },
     {
       "name": "flutter_quill_delta_from_html",
@@ -184,6 +220,24 @@
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/kingsleylam/Development/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "freezed_annotation",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/freezed_annotation-2.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "gal",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/gal-2.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "gal_linux",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/gal_linux-0.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -225,9 +279,9 @@
     },
     {
       "name": "image_picker_ios",
-      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+1",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     },
     {
       "name": "image_picker_linux",
@@ -260,6 +314,24 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "irondash_engine_context",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/irondash_engine_context-0.5.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "irondash_message_channel",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/irondash_message_channel-0.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/json_annotation-4.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "leak_tracker",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
@@ -282,6 +354,18 @@
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/lints-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "lists",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/lists-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/logging-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "markdown",
@@ -314,22 +398,28 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "mocktail",
-      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/mocktail-1.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "path",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
+      "name": "petitparser",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/petitparser-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "photo_view",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/photo_view-0.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "pixel_snap",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/pixel_snap-0.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "plugin_platform_interface",
@@ -339,7 +429,7 @@
     },
     {
       "name": "quill_native_bridge",
-      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/quill_native_bridge-11.0.0",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/quill_native_bridge-10.7.11",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -404,6 +494,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "sprintf",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
@@ -422,6 +518,18 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "super_clipboard",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/super_clipboard-0.8.24",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "super_native_extensions",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/super_native_extensions-0.8.24",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -438,6 +546,12 @@
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "unicode",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/unicode-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "universal_html",
@@ -500,6 +614,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/uuid-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -554,13 +674,31 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "win32_registry",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/win32_registry-1.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "xml",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/xml-6.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "youtube_explode_dart",
+      "rootUri": "file:///Users/kingsleylam/.pub-cache/hosted/pub.dev/youtube_explode_dart-2.3.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "flutter_quill_extensions",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     }
   ],
-  "generated": "2025-01-03T08:56:56.316260Z",
+  "generated": "2025-01-06T02:49:49.631615Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///Users/kingsleylam/Development/flutter",

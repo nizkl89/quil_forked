@@ -7,15 +7,15 @@ import '../../common/utils/dart_ui/dart_ui_fake.dart'
     as ui;
 import '../../common/utils/element_utils/element_web_utils.dart';
 import '../../common/utils/utils.dart';
-import 'config/video_web_config.dart';
+import 'models/video_web_configurations.dart';
 import 'youtube_video_url.dart';
 
 class QuillEditorWebVideoEmbedBuilder extends EmbedBuilder {
   const QuillEditorWebVideoEmbedBuilder({
-    required this.config,
+    required this.configurations,
   });
 
-  final QuillEditorWebVideoEmbedConfig config;
+  final QuillEditorWebVideoEmbedConfigurations configurations;
 
   @override
   String get key => BlockEmbed.videoType;
@@ -26,9 +26,14 @@ class QuillEditorWebVideoEmbedBuilder extends EmbedBuilder {
   @override
   Widget build(
     BuildContext context,
-    EmbedContext embedContext,
+    QuillController controller,
+    Embed node,
+    bool readOnly,
+    bool inline,
+    TextStyle textStyle,
   ) {
-    var videoUrl = embedContext.node.value.data;
+    var videoUrl = node.value.data;
+    // ignore: deprecated_member_use_from_same_package
     if (isYouTubeUrl(videoUrl)) {
       // ignore: deprecated_member_use_from_same_package
       final youtubeID = convertVideoUrlToId(videoUrl);
@@ -37,8 +42,7 @@ class QuillEditorWebVideoEmbedBuilder extends EmbedBuilder {
       }
     }
 
-    final (height, width, margin, alignment) =
-        getWebElementAttributes(embedContext.node);
+    final (height, width, margin, alignment) = getWebElementAttributes(node);
 
     ui.PlatformViewRegistry().registerViewFactory(
       videoUrl,
